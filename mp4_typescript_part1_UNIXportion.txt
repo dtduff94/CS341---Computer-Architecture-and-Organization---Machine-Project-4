@@ -1,0 +1,25 @@
+Script started on Sun Dec  1 12:09:36 2019
+warning: could not update utmp entry
+blade57(1)% pwd
+/courses/cs341/f19/cheungr/dtduff94/mp4
+blade57(2)% ls -lg
+total 384
+-rw-r--r--   1 dtduff94 ugrad       13114 Nov 27 21:21 Rubric.docx
+-rwxr-xr-x   1 dtduff94 ugrad        8032 Nov 27 22:26 charGen1
+-rw-r--r--   1 dtduff94 ugrad        8704 Nov 27 21:21 charGen1.c
+-rw-r--r--   1 dtduff94 ugrad        3785 Nov 27 21:21 makefile
+-rw-r--r--   1 dtduff94 ugrad        2414 Nov 27 21:48 measure.c
+-rw-r--r--   1 dtduff94 ugrad        2409 Nov 27 21:21 measure.c~
+-rwxr-xr-x   1 dtduff94 ugrad       26400 Nov 29 16:41 measure.lnx
+-rw-r--r--   1 dtduff94 ugrad        5098 Nov 29 16:41 measure.opc
+-rw-r--r--   1 dtduff94 ugrad        2515 Nov 29 16:41 measure.syms
+-rw-r--r--   1 dtduff94 ugrad      278580 Nov 27 21:21 mp4.pdf
+lrwxrwxrwx   1 dtduff94 ugrad          12 Nov 29 16:41 syms -> measure.syms
+-rw-r--r--   1 dtduff94 ugrad        4323 Nov 27 21:21 timepack_sapc.c
+-rw-r--r--   1 dtduff94 ugrad        5284 Nov 29 16:41 timepack_sapc.opc
+-rw-r--r--   1 dtduff94 ugrad        1932 Nov 27 21:21 timer.c
+-rw-r--r--   1 dtduff94 ugrad           0 Dec  1 12:09 typescript
+blade57(3)% make C=measure
+make: `measure.lnx' is up to date.
+blade57(4)% exit
+script done on Sun Dec  1 12:11:02 2019

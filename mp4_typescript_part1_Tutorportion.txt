@@ -1,0 +1,148 @@
+Script started on Sun 01 Dec 2019 11:47:48 AM EST
+tuser@tutor-vserver:~$ ls -lg
+total 332
+-rwxr-xr-x 1 tuser  6324 Nov 30 14:46 [0m[01;32mcharGen1[0m
+-rw-r--r-- 1 tuser  8704 Nov 29 17:05 charGen1.c
+-rwxr-xr-x 1 tuser 26842 Oct 22 13:45 [01;32mcount.lnx[0m
+-rw-r--r-- 1 tuser   190 Oct 22 13:45 count.opc
+-rw-r--r-- 1 tuser  2064 Oct 22 13:45 count.s
+-rw-r--r-- 1 tuser  1775 Oct 22 13:45 count.syms
+-rwxr-xr-x 1 tuser 29131 Nov 13 13:33 [01;32mecho.lnx[0m
+drwxr-sr-x 2 tuser  4096 Jul 20  2015 [01;34minclude[0m
+drwxr-sr-x 2 tuser  4096 Jul 20  2015 [01;34mlib[0m
+-rwxr-xr-x 1 tuser 26400 Nov 29 17:01 [01;32mmeasure.lnx[0m
+-rw-r--r-- 1 tuser  5046 Oct 22 04:22 mp2_part1_typescript_VMportion
+-rw-r--r-- 1 tuser  9719 Nov  4 01:24 mp2_part2_typescript_VMportion_and_Debugging
+-rw-r--r-- 1 tuser  5414 Nov  4 02:10 mp2_part3_typescript_VMportion
+-rw-r--r-- 1 tuser  5911 Oct 22 04:04 mp2_warmup_typescript_part2
+-rw-r--r-- 1 tuser  2893 Nov 13 13:35 mp3_typescript_VMportion
+-rwxr-xr-x 1 tuser 26788 Nov  4 02:06 [01;32mprintbin.lnx[0m
+-rwxr-xr-x 1 tuser 27884 Nov  4 02:07 [01;32mstrncpy.lnx[0m
+drwxr-sr-x 2 tuser  4096 Jul 20  2015 [01;34mtestaout[0m
+-rw-r--r-- 1 tuser   818 Jul 20  2015 test.c
+drwxr-sr-x 2 tuser  4096 Jul 20  2015 [01;34mtestelf[0m
+-rw-r--r-- 1 tuser   688 Jul 20  2015 testelf.syms
+-rwxr-xr-x 1 tuser 31650 Sep 16 12:21 [01;32mtest.lnx[0m
+-rw-r--r-- 1 tuser    67 Jul 20  2015 test.s
+-rwxr-xr-x 1 tuser   229 Oct 22 04:01 [01;32mtiny.lnx[0m
+-rw-r--r-- 1 tuser    71 Oct 22 04:01 tiny.opc
+-rw-r--r-- 1 tuser   103 Oct 22 04:01 tiny.s
+-rw-r--r-- 1 tuser  2210 Oct  1 01:11 tutor.c
+-rwxr-xr-x 1 tuser 29600 Oct  1 01:11 [01;32mtutor.lnx[0m
+-rw-r--r-- 1 tuser  4080 Oct  1 01:11 tutor.o
+-rw-r--r-- 1 tuser   725 Oct  1 01:11 tutor.opc
+-rw-r--r-- 1 tuser     0 Dec  1 11:47 typescript
+tuser@tutor-vserver:~$ ls -lgogoutmtip -f measure.lnxls[Kgcc -o charGen1 charGen1.c[2P charGen.c[1PcharGen1 charGen1.cls[Kscp dtduff94@users.cs.umb.edu:cs341/mp4/charGen1.c .[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kscp dtduff94@users.cs.umb.edu:cs341.lnx .[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmp3_typescript_VMportion dtduff94@users.cs.umb.edu:cs3341/mp3[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pdtduff94@users.cs.umb.edu:cs341.lnx .
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kscp dtduff94@users.cs.umb.edu:cs341/mp4/charGen1.c .[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kgcc charGen1 charGen1.cls[Kscp dtduff94@users.cs.umb.edu:cs341/mp4/charGen1.c .[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kscp dtduff94@users.cs.umb.edu:cs341.lnx .[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmp3_typescript_VMportion dtduff94@users.cs.umb.edu:cs3341/mp3[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Pmv typescript mp3_typescript_VMportion
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kscript[4Plsrm typescript_mp3_VMportion[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kmtip -f echo.lnxscp dtduff94@users.cs.umb.edu:cs341/mp3/echo.lnx .[1P[1P[1P[1P[1@m[1@e[1@a[1@s[1@u[1@r[1@e
+dtduff94@users.cs.umb.edu's password: 
+scp: cs341/mp3/measure.lnx: No such file or directory
+tuser@tutor-vserver:~$ scp dtduff94@users.cs.umb.edu:cs341/mp3/measure.lnx .[C[C[C[1P[1@4
+dtduff94@users.cs.umb.edu's password: 
+measure.lnx                                     0%    0     0.0KB/s   --:-- ETAmeasure.lnx                                   100%   26KB  25.8KB/s   00:00    
+tuser@tutor-vserver:~$ scp dtduff94@users.cs.umb.edu:cs341/mp4/measure.lnx .3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -lg[Kogoutmtip -f measure.lnxls[Kgcc -o charGen1 charGen1.c[2P charGen.c[1PcharGen1 charGen1.cls[Kscp dtduff94@users.cs.umb.edu:cs341/mp4/charGen1.c .
+dtduff94@users.cs.umb.edu's password: 
+charGen1.c                                      0%    0     0.0KB/s   --:-- ETAcharGen1.c                                    100% 8704     8.5KB/s   00:00    
+tuser@tutor-vserver:~$ scp dtduff94@users.cs.umb.edu:cs341/mp4/charGen1.c .[1@measure.lnx[C[C[1PcharGen1.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kscp dtduff94@users.cs.umb.edu:cs341/mp4/charGen1.c .[1@measure.lnx[C[C3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -lg[Kogoutmtip -f measure.lnxls[Kgcc -o charGen1 charGen1.c
+tuser@tutor-vserver:~$ Bullseye18!
+bash: Bullseye18!: command not found
+tuser@tutor-vserver:~$ ls
+[0m[01;32mcharGen1[0m                                      [01;32mstrncpy.lnx[0m
+charGen1.c                                    [01;34mtestaout[0m
+[01;32mcount.lnx[0m                                     test.c
+count.opc                                     [01;34mtestelf[0m
+count.s                                       testelf.syms
+count.syms                                    [01;32mtest.lnx[0m
+[01;32mecho.lnx[0m                                      test.s
+[01;34minclude[0m                                       [01;32mtiny.lnx[0m
+[01;34mlib[0m                                           tiny.opc
+[01;32mmeasure.lnx[0m                                   tiny.s
+mp2_part1_typescript_VMportion                tutor.c
+mp2_part2_typescript_VMportion_and_Debugging  [01;32mtutor.lnx[0m
+mp2_part3_typescript_VMportion                tutor.o
+mp2_warmup_typescript_part2                   tutor.opc
+mp3_typescript_VMportion                      typescript
+[01;32mprintbin.lnx[0m
+tuser@tutor-vserver:~$ lsBullseye18!gcc -o charGen1 charGen1.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscp dtduff94@users.cs.umb.edu:cs341/mp4/charGen1.c .[1@measure.lnx[C[C3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -lg[Kogoutmtip -f measure.lnx
+For command help, type ~?
+For help on args, rerun without args
+Code starts at 0x100100
+Using board # 1 
+Please type <CR> to confirm console setting: 
+Setting console dev to COM2Console: colour EGA+ 80x25
+COM1 at 0x03f8 (irq = 4) is a 16550A
+COM2 at 0x02f8 (irq = 3) is a 16550A
+
+                 Welcome to UMB Tutor for the PC
+   UMB Tutor is a 32-bit protected-mode PC debugger/downloader,
+       based on Linux, UMB Tutor for m68k, and remote gdb.
+UMB Tutor is free software and you are welcome to distribute copies
+of it under certain conditions.  There is no warranty for this program.
+The copyright and warranty provisions follow the Gnu general public
+license, available for view in gdb and elsewhere.  Full sources available.
+--bugs, suggestions, questions to eoneil@cs.umb.edu
+
+Exception 3 at EIP=00057a9b: Breakpoint
+Tutor> ~downloading measure.lnx
+
+......Done.
+
+Download done, setting EIP to 100100.
+Tutor> go 100100
+Calling set_intr_gate (irq = 3, n = 0x23) to arm interrupt...
+Commanding PIC to interrupt CPU for irq 3 (COM2_IRQ)
+enabling receiver interrupts in UART...
+...done, entering almost-infinite loop
+
+time interval= 16477620 us for char=A
+time interval= 1043582 us for char=B
+time interval= 988657 us for char=C
+time interval= 988657 us for char=D
+time interval= 988657 us for char=E
+time interval= 1043582 us for char=F
+time interval= 988657 us for char=G
+time interval= 988657 us for char=0
+time interval= 2032239 us for char=1
+time interval= 1977314 us for char=2
+time interval= 1977314 us for char=3
+time interval= 2032239 us for char=4
+time interval= 1977314 us for char=5
+time interval= 2032239 us for char=6
+time interval= 1977314 us for char=a
+time interval= 3020897 us for char=b
+time interval= 2965971 us for char=c
+time interval= 3020897 us for char=d
+time interval= 3020897 us for char=e
+time interval= 2965971 us for char=f
+time interval= 3020897 us for char=g
+time interval= 3020897 us for char=M
+time interval= 54925 us for char=N
+time interval= 54925 us for char=O
+time interval= 54925 us for char=P
+time interval= 109850 us for char=Q
+time interval= 54925 us for char=R
+time interval= 54925 us for char=S
+time interval= 109850 us for char=0
+time interval= 54925 us for char=1
+time interval= 109850 us for char=2
+time interval= 54925 us for char=3
+time interval= 109850 us for char=4
+time interval= 54925 us for char=5
+time interval= 54925 us for char=6
+time interval= 109850 us for char=m
+time interval= 109850 us for char=n
+time interval= 54925 us for char=o
+time interval= 109850 us for char=p
+time interval= 109850 us for char=q
+time interval= 54925 us for char=r
+time interval= 109850 us for char=sSuspend handler: Suspending mtip, board #1--please return to it (fg command) as soon as possible
+
+[1]+  Stopped                 mtip -f measure.lnx
+tuser@tutor-vserver:~$ scr[K[K[Kexit
+exit
+There are stopped jobs.
+tuser@tutor-vserver:~$ ext[Kit
+exit
+Continuing mtip on board 1
+
+Script done on Sun 01 Dec 2019 11:58:55 AM EST

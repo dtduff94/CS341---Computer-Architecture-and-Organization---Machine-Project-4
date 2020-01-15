@@ -1,0 +1,83 @@
+Script started on Sun 01 Dec 2019 07:28:11 PM EST
+tuser@tutor-vserver:~$ logoutsudo ./charGen1[9Plogoutsudo ./charGen1[9Plogoutsudo ./charGen1[9Plogoutsudo ./charGen1[9Plogoutlogoutsudo ./charGen1[9Plogoutsudo ./charGen1[9Plogoutsudo ./charGen1[9Plogoutsudo ./charGen1[9Plogoutsudo ./charGen1[9Plogoutsudo ./charGen1mtip -f measure.lnxls[K~qmtip -f measure.lnxscp dtduff94@users.cs.umb.edu:cs341/mp4/measure.lnx .[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clogout[Kscp dtduff94@users.cs.umb.edu:cs341/mp4/measure.lnx .
+dtduff94@users.cs.umb.edu's password: 
+measure.lnx                                     0%    0     0.0KB/s   --:-- ETAmeasure.lnx                                   100%   26KB  26.1KB/s   00:00    
+tuser@tutor-vserver:~$ scp dtduff94@users.cs.umb.edu:cs341/mp4/measure.lnx .[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clogout[Ksudo ./charGen1[9Plogoutsudo ./charGen1[9Plogoutsudo ./charGen1[9Plogoutsudo ./charGen1[9Plogoutlogoutsudo ./charGen1[9Plogoutsudo ./charGen1[9Plogoutsudo ./charGen1[9Plogoutsudo ./charGen1[9Plogoutsudo ./charGen1[9Plogoutsudo ./charGen1mtip -f measure.lnxls[K~qlsmtip -f measure.lnx
+For command help, type ~?
+For help on args, rerun without args
+Code starts at 0x100100
+Using board # 1 
+Please type <CR> to confirm console setting: 
+Setting console dev to COM2Console: colour EGA+ 80x25
+COM1 at 0x03f8 (irq = 4) is a 16550A
+COM2 at 0x02f8 (irq = 3) is a 16550A
+
+                 Welcome to UMB Tutor for the PC
+   UMB Tutor is a 32-bit protected-mode PC debugger/downloader,
+       based on Linux, UMB Tutor for m68k, and remote gdb.
+UMB Tutor is free software and you are welcome to distribute copies
+of it under certain conditions.  There is no warranty for this program.
+The copyright and warranty provisions follow the Gnu general public
+license, available for view in gdb and elsewhere.  Full sources available.
+--bugs, suggestions, questions to eoneil@cs.umb.edu
+
+Exception 3 at EIP=00057a9b: Breakpoint
+Tutor> ~downloading measure.lnx
+
+......Done.
+
+Download done, setting EIP to 100100.
+Tutor> go 100100
+Calling set_intr_gate (irq = 3, n = 0x23) to arm interrupt...
+Commanding PIC to interrupt CPU for irq 3 (COM2_IRQ)
+enabling receiver interrupts in UART...
+...done, entering almost-infinite loop
+
+time interval= 28788990 us for char=A
+time interval= 1033877 us for char=B
+time interval= 982110 us for char=C
+time interval= 980228 us for char=D
+time interval= 980514 us for char=E
+time interval= 1089749 us for char=F
+time interval= 979262 us for char=G
+time interval= 982094 us for char=0
+time interval= 2067839 us for char=1
+time interval= 1955994 us for char=2
+time interval= 1953340 us for char=3
+time interval= 2013593 us for char=4
+time interval= 1958478 us for char=5
+time interval= 2062912 us for char=6
+time interval= 1959869 us for char=a
+time interval= 3045226 us for char=b
+time interval= 3041407 us for char=c
+time interval= 2937182 us for char=d
+time interval= 3044527 us for char=e
+time interval= 2934308 us for char=f
+time interval= 2987588 us for char=g
+time interval= 3043992 us for char=M
+time interval= 47673 us for char=N
+time interval= 44804 us for char=O
+time interval= 153475 us for char=P
+time interval= 45798 us for char=Q
+time interval= 43523 us for char=R
+time interval= 42745 us for char=S
+time interval= 99017 us for char=0
+time interval= 31200 us for char=1
+time interval= 140579 us for char=2
+time interval= 37643 us for char=3
+time interval= 141176 us for char=4
+time interval= 33291 us for char=5
+time interval= 144071 us for char=6
+time interval= 24615 us for char=m
+time interval= 139681 us for char=n
+time interval= 21478 us for char=o
+time interval= 75506 us for char=p
+time interval= 128326 us for char=q
+time interval= 23838 us for char=r
+time interval= 83515 us for char=s~q 
+Quit handler: 
+killing process 2251 Leaving board #1
+tuser@tutor-vserver:~$ exit
+exit
+
+Script done on Sun 01 Dec 2019 07:30:30 PM EST
